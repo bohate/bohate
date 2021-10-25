@@ -1,32 +1,25 @@
-# Prerequisites
-*.d
+pkg update && pkg upgrade
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+$ pkg install python2
 
-# Precompiled Headers
-*.gch
-*.pch
+$ pkg install bash
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+$ pkg install ruby
 
-# Fortran module files
-*.mod
-*.smod
+$ gem install lolcat
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+$ pkg install figlet
 
-# Executables
-*.exe
-*.out
-*.app
+$ pkg install toilet
+
+$ pkg install openssh
+
+$ pkg install php
+
+$ pkg install git
+
+$ git clone https://github.com/reyspeed/phish-all
+
+$ cd phish-all
+
+$ bash croot.sh
